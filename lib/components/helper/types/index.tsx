@@ -5,10 +5,15 @@ export type LinkType = LinkProps & {
   title: string;
 };
 
+export type ResponsiveImageType = {
+  desktop: StaticImageData;
+  mobile: StaticImageData;
+};
+
 export type ProjectType = {
   title: string;
   description: string;
-  image: StaticImageData;
+  image: ResponsiveImageType;
   website: string;
   github: string;
 };

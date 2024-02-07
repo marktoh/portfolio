@@ -24,7 +24,18 @@ const ProjectCard: FC<ProjectType> = ({
       }}
     >
       <div className="relative">
-        <Image className="object-cover" src={image} alt={title} fill />
+        <Image
+          className="block md:hidden object-cover"
+          src={image?.mobile}
+          alt={title}
+          fill
+        />
+        <Image
+          className="hidden md:block object-cover"
+          src={image?.desktop}
+          alt={title}
+          fill
+        />
         <Information
           title={title}
           description={description}
