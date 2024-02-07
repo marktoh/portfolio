@@ -2,9 +2,10 @@
 import { FC, useRef } from "react";
 import { useInView } from "framer-motion";
 import Image from "next/image";
-import Portrait from "@/public/portrait2.png";
+import { Information } from "./helper";
+import { HeroType } from "../helper/types";
 
-const Banner: FC = () => {
+const HeroSection: FC<HeroType> = ({ image, title, description }) => {
   const ref = useRef(null);
   const isInView = useInView(ref, { once: true });
   return (
@@ -15,16 +16,17 @@ const Banner: FC = () => {
         transition: "ease 0.7s",
       }}
     >
-      <div className="relative flex items-center justify-center h-[15vh] md:h-[30vh] bg-gray-800">
+      <div className="relative">
         <Image
-          className="object-[30%] md:object-[0%] object-cover aspect-video"
-          src={Portrait}
-          alt=""
+          className="object-[20%] md:object-[30%] object-cover"
+          src={image}
+          alt={title}
           fill
         />
+        <Information title={title} description={description} />
       </div>
     </section>
   );
 };
 
-export default Banner;
+export default HeroSection;

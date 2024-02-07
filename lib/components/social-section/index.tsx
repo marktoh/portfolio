@@ -2,19 +2,17 @@
 import { FC, useRef } from "react";
 import { useInView } from "framer-motion";
 import NextLink from "next/link";
-import { Link } from "../helper/types";
-import AnimatedTitle from "@/lib/components/animated-title";
+import { LinkType } from "../helper/types";
 
 interface SocialSectionProps {
-  socialLinks: Link[];
+  socialLinks: LinkType[];
 }
 const SocialSection: FC<SocialSectionProps> = ({ socialLinks }) => {
   const ref = useRef(null);
   const isInView = useInView(ref);
   return (
     <section>
-      <AnimatedTitle title="SOCIAL" />
-      <div className="flex flex-col items-center gap-2">
+      <div className="h-screen flex flex-col items-center justify-center gap-2">
         {socialLinks?.map((e, idx) => (
           <div
             key={idx}

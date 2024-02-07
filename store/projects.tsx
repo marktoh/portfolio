@@ -5,9 +5,9 @@ import ResumeCreator from "../public/resume-creator.png";
 import DesignSystem from "../public/design-system.png";
 import Marketplace from "../public/marketplace-portrait-2.png";
 
-import { Project } from "@/lib/components/helper/types";
+import { ProjectType } from "@/lib/components/helper/types";
 
-const projects: Project[] = [
+const projects: ProjectType[] = [
   {
     title: "Lotus Oxford",
     description: "An e-commerce website for wholesalers",
