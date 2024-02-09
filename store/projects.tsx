@@ -1,3 +1,6 @@
+import FigmaResponsiveMusicStoreDesktop from "../public/backgrounds/figma-responsive-music-store-desktop.png";
+import FigmaResponsiveMusicStoreMobile from "../public/backgrounds/figma-responsive-music-store-mobile.png";
+
 import LotusOxfordDesktop from "../public/backgrounds/lotus-oxford-desktop.png";
 import LotusOxfordMobile from "../public/backgrounds/lotus-oxford-desktop.png";
 
@@ -19,6 +22,17 @@ import OpenF1Mobile from "../public/backgrounds/open-f1-mobile.png";
 import { ProjectType } from "@/lib/components/helper/types";
 
 const projects: ProjectType[] = [
+  {
+    title: "Figma Responsive Music Store",
+    description:
+      "A responsive music store website built with TailwindCSS, Next.js, and Storybook based on Figma",
+    image: {
+      desktop: FigmaResponsiveMusicStoreDesktop,
+      mobile: FigmaResponsiveMusicStoreMobile,
+    },
+    website: "https://figma-responsive-music-store.vercel.app/",
+    github: "https://github.com/marktoh/figma-responsive-music-store",
+  },
   {
     title: "Lotus Oxford",
     description: "An e-commerce website for wholesalers",
