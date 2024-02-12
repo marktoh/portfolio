@@ -19,7 +19,7 @@ const SocialSection: FC<SocialSectionProps> = ({ socialLinks }) => {
             ref={ref}
             style={{
               opacity: isInView ? 1 : 0,
-              transition: `ease ${idx * 1.5}s`,
+              transition: `ease ${idx * 3.5}s`,
             }}
           >
             <NextLink
