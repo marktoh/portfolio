@@ -8,7 +8,7 @@ const InformationLayer: FC<InformationLayerProps> = ({
   opacity = "light",
 }) => {
   let className = `relative h-screen w-screen flex flex-col justify-center z-10 p-[12%] bg-black`;
-  className += opacity === "light" ? " bg-opacity-50" : " bg-opacity-65";
+  className += opacity === "light" ? " bg-opacity-50" : " bg-opacity-75";
   return <div className={className}>{children}</div>;
 };
 
