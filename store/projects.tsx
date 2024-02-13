@@ -35,7 +35,8 @@ const projects: ProjectType[] = [
   },
   {
     title: "Lotus Oxford",
-    description: "An e-commerce website for wholesalers",
+    description:
+      "An e-commerce website for wholesalers built with React, Supabase, and a verified payment gateway provider",
     image: {
       desktop: LotusOxfordDesktop,
       mobile: LotusOxfordMobile,
@@ -45,7 +46,8 @@ const projects: ProjectType[] = [
   },
   {
     title: "marktoh.com",
-    description: "A photography e-commerce website for Mark Toh",
+    description:
+      "A photography e-commerce website for Mark Toh built with React and Stripe",
     image: {
       desktop: PhotographyDesktop,
       mobile: PhotographyMobile,
@@ -55,7 +57,8 @@ const projects: ProjectType[] = [
   },
   {
     title: "Dota Drafter",
-    description: "A tool for recording Dota Drafts",
+    description:
+      "A tool for recording Dota Drafts built with React, Supabase, and OpenDota API",
     image: {
       desktop: DotaDrafterDesktop,
       mobile: DotaDrafterMobile,
@@ -66,7 +69,8 @@ const projects: ProjectType[] = [
 
   {
     title: "Resume Creator",
-    description: "A tool for creating a resume",
+    description:
+      "A tool for creating a resume built with TailwindCSS, Next.js, and Vercel",
     image: {
       desktop: ResumeCreatorDesktop,
       mobile: ResumeCreatorMobile,
@@ -76,7 +80,8 @@ const projects: ProjectType[] = [
   },
   {
     title: "Design System",
-    description: "A design system for Mumbo",
+    description:
+      "A design system for Mumbo built with TailwindCSS, Next.js, and Vercel",
     image: {
       desktop: DesignSystemDesktop,
       mobile: DesignSystemMobile,
@@ -86,7 +91,8 @@ const projects: ProjectType[] = [
   },
   {
     title: "Open F1",
-    description: "A tool to track F1 circuits since 1950",
+    description:
+      "A tool to track F1 circuits since 1950 built with React and OpenStreetMap",
     image: {
       desktop: OpenF1Desktop,
       mobile: OpenF1Mobile,
