@@ -1,6 +1,6 @@
 # Portfolio
 
-A portfolio for Mark Toh
+A portfolio for Mark Toh built with TailwindCSS, Next.js, and Vercel
 
 ## Table of Contents
 
