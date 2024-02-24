@@ -10,12 +10,6 @@ import PhotographyMobile from "../public/backgrounds/photography-mobile.png";
 import DotaDrafterDesktop from "../public/backgrounds/dota-drafter-desktop.jpg";
 import DotaDrafterMobile from "../public/backgrounds/dota-drafter-mobile.jpg";
 
-import ResumeCreatorDesktop from "../public/backgrounds/resume-creator-desktop.png";
-import ResumeCreatorMobile from "../public/backgrounds/resume-creator-mobile.png";
-
-import DesignSystemDesktop from "../public/backgrounds/design-system-desktop.jpg";
-import DesignSystemMobile from "../public/backgrounds/design-system-mobile.png";
-
 import OpenF1Desktop from "../public/backgrounds/open-f1-desktop.jpg";
 import OpenF1Mobile from "../public/backgrounds/open-f1-mobile.png";
 
@@ -65,29 +59,6 @@ const projects: ProjectType[] = [
     },
     website: "https://dota-drafter-beta.vercel.app/",
     github: "https://github.com/marktoh/dota-drafter",
-  },
-
-  {
-    title: "Resume Creator",
-    description:
-      "A tool for creating a resume built with TailwindCSS, Next.js, and Vercel",
-    image: {
-      desktop: ResumeCreatorDesktop,
-      mobile: ResumeCreatorMobile,
-    },
-    website: "https://resume-marktoh.vercel.app/",
-    github: "https://github.com/marktoh/resume-creator",
-  },
-  {
-    title: "Design System",
-    description:
-      "A design system for Mumbo built with TailwindCSS, Next.js, and Vercel",
-    image: {
-      desktop: DesignSystemDesktop,
-      mobile: DesignSystemMobile,
-    },
-    website: "",
-    github: "https://github.com/marktoh/design-system",
   },
   {
     title: "Open F1",
