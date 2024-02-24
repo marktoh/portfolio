@@ -15,10 +15,14 @@ const Information: FC<ProjectInformation> = ({
   return (
     <InformationLayer opacity="dark">
       <div className="mt-1 flex flex-col">
-        <h2 className="text-2xl font-semibold text-white">{title}</h2>
-        <p className="mt-1 text-gray-300 text-base">{description}</p>
+        <h2 className="text-2xl font-semibold text-white text-center md:text-left">
+          {title}
+        </h2>
+        <p className="mt-2.5 text-gray-300 text-base text-center md:text-left">
+          {description}
+        </p>
       </div>
-      <div className="mt-1.5 flex gap-1">
+      <div className="mt-2.5 flex gap-1 justify-center md:justify-start">
         {website && <SocialLink title="Website" href={website} />}
         {github && <SocialLink title="Github" href={github} />}
       </div>
