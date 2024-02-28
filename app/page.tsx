@@ -6,7 +6,7 @@ import store from "@/store";
 export default function Home() {
   const { hero, projects, socialLinks } = store;
   return (
-    <main className="h-screen overflow-y-scroll snap-y snap-mandatory">
+    <main className="h-screen overflow-y-scroll snap-y snap-mandatory bg-black">
       <HeroSection {...hero} />
       <ProjectSection projects={projects} />
       <SocialSection socialLinks={socialLinks} />
