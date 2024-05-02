@@ -5,7 +5,7 @@ import { HeroType } from "@/lib/components/helper/types";
 const data = {
   image: HeroDesktop,
   title: "Mark Toh",
-  description: "Software Engineer, Front-end Engineer, Lead Software Engineer",
+  description: "Software Engineer",
 } satisfies HeroType;
 
 export default data;
